@@ -1,13 +1,7 @@
-#!/usr/bin/env python
-
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='Distutils',
-    version='1.0',
-    description='Python Distribution Utilities',
-    author='Prakhar',
-    author_email='prakhar.parihar@celebaltech.com',
-    url='https://www.python.org/sigs/distutils-sig/',
-    packages=['distutils', 'distutils.command'],
+    name="Pack1",
+    version="1.0",
+    packages=find_packages(),
 )
